@@ -57,3 +57,5 @@ b1 =data[5-i]?1:0;
 i=i+1;  
 end  
 endmodule  
+
+# Vending-Machine
