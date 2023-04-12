@@ -67,7 +67,7 @@ Temperature Monitor Block Diagram
 
 SOME USEFUL LINKS
 
-An easy-to-read SPI tutorial from sparkfun
+https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi
 Datasheet: TI SPI-based temperature sensor LM70
 Technical Reference: Xilinx Spartan-6 FPGA Development Board
 ❗ TASKS: ❗
