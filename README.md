@@ -58,4 +58,19 @@ i=i+1;
 end  
 endmodule  
 
-# Vending-Machine
+# SPI-based TEMPERATURE MONITOR
+
+This project will aim at design and immplemention of a SPI-based temperature monitor. The students will design a controller in Verilog to read the data from the sensor (LM70) using the industry-standard SPI protocol, convert the data to a human readable format (deg-C) and drive a set of 7-segment display to display the data. In order to test the Verilog code in realtime application, the Verilog code will be synthesized into a Xilinx's Spartan FPGA board. This will allow the students to test their Verilog code in real time.
+
+Temperature Monitor Block Diagram
+
+SOME USEFUL LINKS
+
+An easy-to-read SPI tutorial from sparkfun
+Datasheet: TI SPI-based temperature sensor LM70
+Technical Reference: Xilinx Spartan-6 FPGA Development Board
+❗ TASKS: ❗
+
+1️⃣ Convert the shift register code to a compact format like this shift_reg <= shifte_reg<<1;
+2️⃣ Latch the 8-bit output from the LM70 to outreg[7:0] at the end of read cycle and verify you the value is the same as set in the temperature sensor.
+3️⃣ Follow chipverify.com excercises till the Behavioural modeling section. Now you can use iverilog to complete the assignments.
